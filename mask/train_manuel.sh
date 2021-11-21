@@ -1,0 +1,1 @@
+python mask_gen_dynamic.py --dataset manuel --data ../datasets/masks --path ../datasets/rgbs/manuel --dataloader SynthLoader --getdata get_data_synth --nb_l 12 --angle 180 --LAMBDA_gm_rot 100. --LAMBDA_gm 100. --LAMBDA_m 100. --LAMBDA_cyc 100. --nb_epochs 200 --ratio 1 --batch 3
